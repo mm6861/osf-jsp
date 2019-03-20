@@ -18,6 +18,7 @@ public class PBoardServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
     
 	private static String savePath = "D:\\study\\workspace\\osf-jsp\\WebContent\\upload";
+	//나중에 할 때는 이 경로가 필요없다. 톰캣에서 제공하는 리얼 경로를 사용한다.
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
